@@ -200,9 +200,7 @@ h3 { margin: 0; font-size: clamp(1.55rem,2vw,2.2rem); letter-spacing: -.04em; te
 .success-icon { width: 74px; height: 74px; margin: 0 auto 22px; display: grid; place-items: center; color: white; background: var(--green); font-size: 2rem; }
 .success-state h2 { max-width: 14ch; margin-inline: auto; }
 .success-state p { max-width: 48ch; color: #686762; font-family: Arial,sans-serif; margin-left: 45px;}
-
-
-
+.span-otup{margin-top: 4px;}
 .reveal { opacity: 0; transform: translateY(34px); transition: opacity .7s ease, transform .8s cubic-bezier(.2,.75,.2,1); }
 .reveal.is-visible { opacity: 1; transform: translateY(0); }
 :focus-visible { outline: 3px solid var(--acid); outline-offset: 4px; }
@@ -219,6 +217,7 @@ h3 { margin: 0; font-size: clamp(1.55rem,2vw,2.2rem); letter-spacing: -.04em; te
   .process-grid, .faq-grid { grid-template-columns: 1fr; gap: 60px; }
   .process-intro { position: static; }
   .about-grid { grid-template-columns: 1fr; gap: 52px; }
+  .span-otup{margin-top: 0px;}
   .success-state p {margin-left: 0px;}
 }
 
